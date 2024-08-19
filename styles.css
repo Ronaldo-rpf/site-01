@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+@font-face {
+    font-family: "trench";
+    src: url(trench/trench100.ttf);
+}
+
+h1{
+    font-family: "trench", sans-serif;
+    font-size: 49px;
+    text-align: center;
+    line-height: 85%;
+}
+
+h1 .masterclass {
+    color: #00a1ff;
+}
+
+h1 .programação {
+    font-size: 45px;
+}
+
+h1 .fullstack {
+    font-size: 69px;
+}
+
+
+body{
+    background-color: #121212;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.secao-hero{
+    background-image: url(https://cdn.prod.website-files.com/61b9e0dd381626819c8d4f83/660d9e60b52c66db2e67e0b4_%5BBACKGROUND%5D%20-%20BANNER%2001%20-%20WJS1.webp);
+    background-position: 50%;
+    background-size: cover;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container-coluna{
+    flex-direction: column;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #050505;
+    box-shadow: 0 0 25px 5px #00a1ff;
+    padding: 30px 40px;
+    border-radius: 25px;
+    max-width: 50%;
+    gap: 25px;
+    font-size: 19px;
+}
+
+.subtítulo, .data, button{
+    font-size: 25px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 7.5px;
+}
+
+li{
+    display: flex;
+    align-items: flex-start;
+    gap: 7.5px;
+}
+
+li img{
+    margin-top: 2.5px;
+    display: block;
+}
+
+.data{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 0 7.5px 0px #00a1ff;
+    border-radius: 100px;
+    padding: 5px 30px;
+}
+
+button{
+    background-color: #0068a5;
+    color: inherit;
+    padding: 10px 30px;
+    border-radius: 100px;
+    border: 3px solid #004973;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+button:hover{
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+    border-top-width: 4px;
+}
+
+.secao{
+    padding: 60px 20px;
+}
+
+.daniel{
+    max-width: 510px;
+}
+
+
+
+
+
+.secao-disclaimer{
+    background-color: #151515;
+    padding: 30px 20px;
+    box-shadow: 0 15px 15px 0 rgb(0 0 0 / 50%);
+}
+
+.disclaimer{
+    font-size: 15px;
+    color: #7C7F7F;
+    
+}
+
+
+
+
+
+.secao-passos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin: 100px;
+}
+
+h2{
+    font-size: 42px;
+    font-weight: 400;
+}
+
+h3{
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.passo-conteudo{
+    font-size: 19px;
+}
+
+.realce{
+    color: #00a1ff;
+}
+
+.passo{
+    background-color: #1c1c1c;
+    padding: 20px 30px;
+    border-radius: 16px;
+    display: flex;
+    max-width: 1000px;
+    gap: 15px;
+    align-items: center;
+}
+
+.passo-icone{
+    max-width: 53px;
+    background-color: #141213;
+    border-radius: 7.5px;
+    padding: 15px;
+    box-shadow: 0 0 7.5px 0px #00a1ff, inset 0 0 5px 0px #005080;
+    border: 3px solid #262427;
+}
+
+.passo-cabecalho{
+    display: flex;
+    gap: 10px;
+    min-width: 200px;
+}
+
+.barra{
+    min-width: 4px;
+    background-color: #333;
+    align-self: stretch;
+}
+
+.passos{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
